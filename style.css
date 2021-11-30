@@ -30,6 +30,10 @@
     color: black;
 }
 
+.main-nav a:hover {
+    color: #D6000D;
+}
+
 .main-nav .login {
     background-color: #D6000D;
     padding: .4rem 3rem;
@@ -109,7 +113,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 3.3rem 0 2rem 0;
+        padding: 3.3rem 0 0 0;
     }
 
     .main-header .title {
@@ -121,7 +125,6 @@
     }
 
     nav .login {
-        font-size: 1.2rem;
         margin-left: 0;
         display: block;
     }
@@ -136,6 +139,7 @@
     .wrap-image {
         margin-right: auto;
         margin-left: auto;
+        margin-bottom: 2rem;
     }
 
     .wrap-description {
