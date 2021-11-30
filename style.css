@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-body {
-    background-color: black;
-}
-
 .main-header {
     padding: 5rem 5rem;
     background-color:white;
@@ -49,6 +45,62 @@ body {
     background-color: #f02c39;
 }
 
+
+.image {
+    max-width: 35rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap-image {
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.wrap-description {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-right: 15rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+
+.wrap-description .red {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #D6000D;
+}
+
+.wrap-description .button {
+    background-color: #D6000D;
+    color: white;
+    margin-top: 3rem;
+    padding: .5rem 4rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.button:hover {
+    background-color: #f02c39;
+    transition: 200ms;
+}
+
+.button:active {
+    transform: translateY(1.5px);
+}
+
+
+
+
+
+
+/*Responsivo*/
+
+
 @media only screen and (max-width: 450px) {
     .main-header {
         width: 100%;
@@ -57,7 +109,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding: 4rem 0 2rem 0;
+        padding: 3.3rem 0 2rem 0;
     }
 
     .main-header .title {
@@ -73,16 +125,39 @@ body {
         margin-left: 0;
         display: block;
     }
-}
 
+    .image {
+        max-width: 16rem;
+        justify-content: center;
+        align-items: center;
+        
+    }
 
-.description {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .wrap-image {
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-.image {
-    max-width: 300px;
-    
+    .wrap-description {
+        font-size: 1.3rem;
+        line-height: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1rem;
+    }
+
+    .wrap-description .red {
+        font-size: 2rem;
+    }
+
+    .wrap-description .button {
+        font-size: 1rem;
+        padding: .8rem 2rem;
+        margin-left: 2rem;
+    }
+
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
 }
