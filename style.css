@@ -23,6 +23,10 @@
     margin-left: 0;
 }
 
+.main-nav a:hover:last-child {
+    color: white;
+}
+
 .main-nav a {
     text-decoration: none;
     margin-left: 2rem;
@@ -36,7 +40,7 @@
 
 .main-nav .login {
     background-color: #D6000D;
-    padding: .4rem 3rem;
+    padding: .4rem 4rem;
     border-radius: 1rem;
     color: white;
 }
@@ -46,7 +50,7 @@
 }
 
 .login:hover {
-    background-color: #f02c39;
+    background-color:#f02c39;
 }
 
 
@@ -156,7 +160,7 @@
 
     .wrap-description .button {
         font-size: 1rem;
-        padding: .8rem 2rem;
+        padding: .4rem 2rem;
         margin-left: 2.5rem;
     }
 
