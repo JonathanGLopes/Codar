@@ -229,7 +229,7 @@
         display: flex;
         flex-direction: column;
         width: 18rem;
-        margin: 1rem 1rem 0 2rem;
+        margin: 1rem 1rem 0 1rem;
     }
 
     .main-content .wrap-depo h2{
@@ -260,5 +260,9 @@
 
     .sobre, .contato, .social-media {
         margin-left: 2rem;
+    }
+
+    .main-contato {
+        padding-bottom: 2rem;
     }
 }
