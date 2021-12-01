@@ -141,7 +141,7 @@
     }
 
     .main-header {
-        padding: 2rem .5rem 0 0;
+        padding: 1rem .5rem 0 0;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -154,7 +154,7 @@
     }
 
     .wrapper .imagecode {
-        margin-top: 40px;
+        margin-top: 1.875rem;
         width: 10rem;
     }
 
@@ -185,12 +185,12 @@
 
     .list li {
         font-family: 'Roboto', sans-serif;
-        margin-top: 10px;
-        line-height: 35px;
+        margin-top: 0.625rem;
+        line-height: 2.188rem;
     }
 
     .wrapper .list .imglist {
-        width: 15px;
+        width: 0.938rem;
         margin-right: .8rem;
     }
 
