@@ -129,8 +129,9 @@
     }
 
     nav .login {
-        margin-left: 0;
+        margin-left: 0.938rem;
         display: block;
+        width: 4.375rem;
     }
 
     .image {
