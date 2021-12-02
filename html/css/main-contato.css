@@ -66,3 +66,80 @@
     justify-content: space-evenly;
     font-size: 1rem;
 }
+
+
+/* Responsivo */
+
+@media only screen and (max-width: 450px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .main-content, .main-contato {
+        height: 50vh;
+    }
+
+    .main-header{
+        display: none;
+        visibility: hidden;
+    }
+
+    .depo1, .depo2 {
+        padding: 1rem 1rem;
+        width: 20rem;
+    }
+
+    .depo2 {
+        margin-top: 2rem;
+    }
+
+
+    .depoimento {
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 1rem 0 0 0;
+    }
+
+    .main-content .wrap-depo{
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+        margin: 1rem 1rem 0 1rem;
+    }
+
+    .main-content .wrap-depo h2{
+        text-align: left;
+    }
+
+    .main-contato .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-contato .wrapper {
+        padding: 0;
+        margin: 0;
+    }
+
+    .title2, .sobre, .contato, .social-media {
+        margin-top: 1rem;
+    }
+
+    .title2 {
+        text-align: center;
+    }
+
+    .main-contato .title2 {
+        margin-left: 0;
+    }
+
+    .sobre, .contato, .social-media {
+        margin-left: 2rem;
+    }
+
+    .main-contato {
+        padding-bottom: 2rem;
+    }
+}
