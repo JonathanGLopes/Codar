@@ -1,0 +1,47 @@
+
+.image {
+    max-width: 35rem;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wrap-image {
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+
+.wrap-description {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    margin-right: 15rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+
+.wrap-description .red {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #D6000D;
+}
+
+.wrap-description .button {
+    background-color: #D6000D;
+    color: white;
+    margin-top: 3rem;
+    padding: .5rem 4rem;
+    border-radius: 1.5rem;
+    font-size: 1.7rem;
+}
+
+.button:hover {
+    background-color: #f02c39;
+    transition: 200ms;
+}
+
+.button:active {
+    transform: translateY(1.5px);
+}
